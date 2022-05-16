@@ -12,6 +12,16 @@
   .slider__item-desc {
     font-size: 1.2rem;
   }
+  @media screen and (max-height: 31.25rem) {
+    html {
+      --width: 50vw;
+    }
+  }
+  @media screen and (max-height: 28rem) {
+    html {
+      --width: 48vw;
+    }
+  }
 }
 @media screen and (max-width: 48rem) {
   html {
@@ -42,10 +52,30 @@
   .slider__item-desc {
     font-size: 1.1rem;
   }
+  @media screen and (max-height: 31.25rem) {
+    html {
+      --width: 50vw;
+    }
+  }
+  @media screen and (max-height: 28rem) {
+    html {
+      --width: 48vw;
+    }
+  }
 }
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 36rem) {
   html {
     --width: 92vw;
     --width-desc: 92vw;
+  }
+  @media screen and (max-height: 31.25rem) {
+    html {
+      --width: 50vw;
+    }
+  }
+  @media screen and (max-height: 28rem) {
+    html {
+      --width: 48vw;
+    }
   }
 }
