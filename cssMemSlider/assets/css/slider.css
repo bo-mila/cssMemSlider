@@ -25,7 +25,7 @@
   width: 100%;
   display: flex;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 1.2rem;
 }
 
 .slider__item-img {
