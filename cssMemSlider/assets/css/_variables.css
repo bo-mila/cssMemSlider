@@ -1,0 +1,27 @@
+html {
+  --white: #FFFFFF;
+  --black: #000000;
+  --yellow: #f48c42;
+  --grey: #b39d9d;
+  --grey-dark: #B2B2B2;;
+  --light: #FAFAFA;
+  --dark: #151212;
+  --dark-second: #4C4C4C;
+  --body-back: #292929;
+  --z-0: 0;
+  --z-1: 1;
+  --width: 60vw;
+  --max-width: 40rem;
+  --width-desc: calc(var(--width) - 14rem);
+  --max-width-desc: calc(var(--max-width) - 14rem);
+  --anim-duration-4: .4s;
+  --anim-duration-1: .1s;
+  --anim-timing-func: ease-out;
+  --anim-delay-0: 0s;
+  --anim-delay-5: .5s;
+  --anim-fill-mode-backwards: backwards;
+  --anim-fill-mode-forwards: forwards;
+  --anim-direc-normal: normal;
+  --anim-direc-alternate: alternate;
+  --trans-opacity: opacity .6s;
+}
