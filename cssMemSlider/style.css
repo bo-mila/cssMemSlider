@@ -1,5 +1,5 @@
-@import "assets/css/_normalize.css";
-@import "assets/css/_variables.css";
-@import "assets/css/_animation.css";
-@import "assets/css/_layout.css";
-@import "assets/css/_slider.css";
+@import url(./assets/css/normalize.css);
+@import url(./assets/css/variables.css);
+@import url(./assets/css/animation.css);
+@import url(./assets/css/layout.css);
+@import url(./assets/css/slider.css);
