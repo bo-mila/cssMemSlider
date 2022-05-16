@@ -125,3 +125,209 @@
 .slider__input {
   display: none;
 }
+
+.slider__input:nth-child(1):checked ~ .slider__list-img .slider__item-img {
+  z-index: 0;
+}
+
+.slider__input:nth-child(1):checked ~ .slider__list-img .slider__item-img .slider__img {
+  animation: var(--anim-slide-out);
+}
+
+.slider__input:nth-child(1):checked ~ .slider__list-img .slider__item-img:nth-child(1) {
+  z-index: 2;
+}
+
+.slider__input:nth-child(1):checked ~ .slider__list-img .slider__item-img:nth-child(1) .slider__img {
+  animation: var(--anim-slide-in);
+}
+
+.slider__input:nth-child(1):checked ~ .slider__list-label .slider__label:nth-child(1) .slider__label-inner {
+  background-color: transparent;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.slider__input:nth-child(1):checked ~ .slider__list-desc .slider__item-desc {
+  z-index: 0;
+  opacity: 0;
+  transition: var(--trans-opacity);
+}
+
+.slider__input:nth-child(1):checked ~ .slider__list-desc .slider__item-desc .slider__desc {
+  animation: var(--anim-slide-out);
+}
+
+.slider__input:nth-child(1):checked ~ .slider__list-desc .slider__item-desc:nth-child(1) {
+  z-index: 2;
+  opacity: 1;
+}
+
+.slider__input:nth-child(1):checked ~ .slider__list-desc .slider__item-desc:nth-child(1) .slider__desc {
+  animation: var(--anim-slide-in);
+}
+
+.slider__input:nth-child(2):checked ~ .slider__list-img .slider__item-img {
+  z-index: 0;
+}
+
+.slider__input:nth-child(2):checked ~ .slider__list-img .slider__item-img .slider__img {
+  animation: var(--anim-slide-out);
+}
+
+.slider__input:nth-child(2):checked ~ .slider__list-img .slider__item-img:nth-child(2) {
+  z-index: 2;
+}
+
+.slider__input:nth-child(2):checked ~ .slider__list-img .slider__item-img:nth-child(2) .slider__img {
+  animation: var(--anim-slide-in);
+}
+
+.slider__input:nth-child(2):checked ~ .slider__list-label .slider__label:nth-child(2) .slider__label-inner {
+  background-color: transparent;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.slider__input:nth-child(2):checked ~ .slider__list-desc .slider__item-desc {
+  opacity: 0;
+  transition: var(--trans-opacity);
+  z-index: 0;
+}
+
+.slider__input:nth-child(2):checked ~ .slider__list-desc .slider__item-desc .slider__desc {
+  animation: var(--anim-slide-out);
+}
+
+.slider__input:nth-child(2):checked ~ .slider__list-desc .slider__item-desc:nth-child(2) {
+  opacity: 1;
+  z-index: 2;
+}
+
+.slider__input:nth-child(2):checked ~ .slider__list-desc .slider__item-desc:nth-child(2) .slider__desc {
+  animation: var(--anim-slide-in);
+}
+
+.slider__input:nth-child(3):checked ~ .slider__list-img .slider__item-img {
+  z-index: 0;
+}
+
+.slider__input:nth-child(3):checked ~ .slider__list-img .slider__item-img .slider__img {
+  animation: var(--anim-slide-out);
+}
+
+.slider__input:nth-child(3):checked ~ .slider__list-img .slider__item-img:nth-child(3) {
+  z-index: 2;
+}
+
+.slider__input:nth-child(3):checked ~ .slider__list-img .slider__item-img:nth-child(3) .slider__img {
+  animation: var(--anim-slide-in);
+}
+
+.slider__input:nth-child(3):checked ~ .slider__list-label .slider__label:nth-child(3) .slider__label-inner {
+  background-color: transparent;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.slider__input:nth-child(3):checked ~ .slider__list-desc .slider__item-desc {
+  opacity: 0;
+  transition: var(--trans-opacity);
+  z-index: 0;
+}
+
+.slider__input:nth-child(3):checked ~ .slider__list-desc .slider__item-desc .slider__desc {
+  animation: var(--anim-slide-out);
+}
+
+.slider__input:nth-child(3):checked ~ .slider__list-desc .slider__item-desc:nth-child(3) {
+  opacity: 1;
+  z-index: 2;
+}
+
+.slider__input:nth-child(3):checked ~ .slider__list-desc .slider__item-desc:nth-child(3) .slider__desc {
+  animation: var(--anim-slide-in);
+}
+
+.slider__input:nth-child(4):checked ~ .slider__list-img .slider__item-img {
+  z-index: 0;
+}
+
+.slider__input:nth-child(4):checked ~ .slider__list-img .slider__item-img .slider__img {
+  animation: var(--anim-slide-out);
+}
+
+.slider__input:nth-child(4):checked ~ .slider__list-img .slider__item-img:nth-child(4) {
+  z-index: 2;
+}
+
+.slider__input:nth-child(4):checked ~ .slider__list-img .slider__item-img:nth-child(4) .slider__img {
+  animation: var(--anim-slide-in);
+}
+
+.slider__input:nth-child(4):checked ~ .slider__list-label .slider__label:nth-child(4) .slider__label-inner {
+  background-color: transparent;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.slider__input:nth-child(4):checked ~ .slider__list-desc .slider__item-desc {
+  opacity: 0;
+  transition: var(--trans-opacity);
+  z-index: 0;
+}
+
+.slider__input:nth-child(4):checked ~ .slider__list-desc .slider__item-desc .slider__desc {
+  animation: var(--anim-slide-out);
+}
+
+.slider__input:nth-child(4):checked ~ .slider__list-desc .slider__item-desc:nth-child(4) {
+  opacity: 1;
+  z-index: 2;
+}
+
+.slider__input:nth-child(4):checked ~ .slider__list-desc .slider__item-desc:nth-child(4) .slider__desc {
+  animation: var(--anim-slide-in);
+}
+
+
+.slider__input:nth-child(5):checked ~ .slider__list-img .slider__item-img {
+  z-index: 0;
+}
+
+.slider__input:nth-child(5):checked ~ .slider__list-img .slider__item-img .slider__img {
+  animation: var(--anim-slide-out);
+}
+
+.slider__input:nth-child(5):checked ~ .slider__list-img .slider__item-img:nth-child(5) {
+  z-index: 2;
+}
+
+.slider__input:nth-child(5):checked ~ .slider__list-img .slider__item-img:nth-child(5) .slider__img {
+  animation: var(--anim-slide-in);
+}
+
+.slider__input:nth-child(5):checked ~ .slider__list-label .slider__label:nth-child(5) .slider__label-inner {
+  background-color: transparent;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.slider__input:nth-child(5):checked ~ .slider__list-desc .slider__item-desc {
+  opacity: 0;
+  transition: var(--trans-opacity);
+  z-index: 0;
+}
+
+.slider__input:nth-child(5):checked ~ .slider__list-desc .slider__item-desc .slider__desc {
+  animation: var(--anim-slide-out);
+}
+
+.slider__input:nth-child(5):checked ~ .slider__list-desc .slider__item-desc:nth-child(5) {
+  opacity: 1;
+  z-index: 2;
+}
+
+.slider__input:nth-child(5):checked ~ .slider__list-desc .slider__item-desc:nth-child(5) .slider__desc {
+  animation: var(--anim-slide-in);
+}
